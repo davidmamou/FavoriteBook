@@ -15,8 +15,14 @@ class BookFormTableVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateView()
     }
 
+    func updateView(){
+        //this will update the text field
+    }
+    
+    
     @IBAction func saveTheBook(_ sender: Any) {
     }
 }
