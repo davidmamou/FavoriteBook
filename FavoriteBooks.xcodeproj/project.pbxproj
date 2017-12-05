@@ -58,16 +58,40 @@
 		2C5E3E181E514CC400C02C5F /* FavoriteBook */ = {
 			isa = PBXGroup;
 			children = (
-				2C5E3E331E514EA700C02C5F /* BookTableViewController.swift */,
-				2C5E3E2F1E514D3400C02C5F /* BookFormViewController.swift */,
 				2C5E3E191E514CC400C02C5F /* AppDelegate.swift */,
-				2C5E3E2B1E514CE500C02C5F /* Book.swift */,
-				2C5E3E1D1E514CC400C02C5F /* Main.storyboard */,
+				97ADD7B21FD6D3CE00C3A71A /* storyboard */,
+				97ADD7B11FD6D39600C3A71A /* Model */,
+				97ADD7B01FD6D36A00C3A71A /* Controller */,
 				2C5E3E201E514CC400C02C5F /* Assets.xcassets */,
-				2C5E3E221E514CC400C02C5F /* LaunchScreen.storyboard */,
 				2C5E3E251E514CC400C02C5F /* Info.plist */,
 			);
 			path = FavoriteBook;
+			sourceTree = "<group>";
+		};
+		97ADD7B01FD6D36A00C3A71A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C5E3E2F1E514D3400C02C5F /* BookFormViewController.swift */,
+				2C5E3E331E514EA700C02C5F /* BookTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		97ADD7B11FD6D39600C3A71A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C5E3E2B1E514CE500C02C5F /* Book.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		97ADD7B21FD6D3CE00C3A71A /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2C5E3E221E514CC400C02C5F /* LaunchScreen.storyboard */,
+				2C5E3E1D1E514CC400C02C5F /* Main.storyboard */,
+			);
+			path = storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
